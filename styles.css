@@ -1,12 +1,15 @@
 body{
     width: 1200px; /* Set the fixed width */
     margin: 0 auto; /* Center horizontally */
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2), /* Shadow on the left */
+    5px 0 10px rgba(0, 0, 0, 0.2); /* Shadow on the right */
 }
 
 /*Top of the page*********************************************/
 #top-of-page{
-    background:linear-gradient(90deg, rgba(138,52,249,1) 27%, rgba(74,11,154,1) 79%);
- 
+    background: rgb(118,14,255);
+    background: linear-gradient(90deg, rgba(118,14,255,1) 22%, rgba(63,2,139,1) 67%);
+
   /*Setting stolen from apple*/
     display: flex;
     margin-right: 0px;
@@ -88,15 +91,18 @@ h1{
 article{
     justify-content: center;
     background-color: #fff;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 70px;
 
 }
 
 section{
+
     display: inline-block;
+
     width: 260px;
+    height: 260px;
     text-align: center;
     border-radius: 25px;
     margin: 30px;
@@ -111,12 +117,12 @@ h3{
     font-weight: bold;
     font-style: normal;
 
-    font-size: 25px
+    font-size: 25px;
+
+   
 }
 
 h4 {
-    background-color: ;
-    border-radius: 5px;
     margin: 10px;
 
     font-family: "Quicksand", sans-serif;
@@ -137,16 +143,19 @@ p{
 
 footer{
     text-align: center;
-    background-color: #fff;
     box-shadow: 5px;
     width: 1200px;
     height: 150px;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
 
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
 
+    color: #fff;
+
+    background: rgb(118,14,255);
+    background: linear-gradient(90deg, rgba(118,14,255,1) 22%, rgba(63,2,139,1) 67%);
 }
